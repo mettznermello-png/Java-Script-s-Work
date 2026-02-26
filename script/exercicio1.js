@@ -9,4 +9,4 @@ const horasTrabalhadas = Number(prompt("Digite suas horas Trabalhadas:"))
 const resultado = valorHora*horasTrabalhadas
 
 //Saida
-alert("seus salário é: " + resultado)
+alert("seus salário é:" + resultado)
