@@ -1,4 +1,4 @@
-const número = Number(pormpt("Digite um número:"))
-const outroNúmero = Number(prompt("Digite outro Numero:"))
-alert(número)
-alert(outroNúmero)
+const numero = Number(prompt("Digite um número:"))
+const outroNumero = Number(prompt("Digite outro Numero:"))
+alert(numero)
+alert(outroNumero)
