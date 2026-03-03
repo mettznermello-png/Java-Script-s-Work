@@ -2,5 +2,5 @@
 //footer.style.color = "blue"
 
 const novoTitulo = document.createElement("h2")
-novoTitulo.textContentContent = "Um novo Título"
+novoTitulo.textContent = "Um novo Título"
 console.log(novoTitulo)
