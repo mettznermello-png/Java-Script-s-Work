@@ -1,6 +1,9 @@
-//entrada
-const milhas = Number(prompt("Qual é a distancia em milhas?"))
-//processamento
-const resultado = milhas*1.6934
-//saída
-alert(resultado + "Km")
+function exercicio5() {
+    const milhas = Number(prompt("Qual é a distancia em milhas?"))
+    const resultado = milhas*1.6934
+    alert(resultado + "Km")
+}
+const buttonExercicio5 = document.getElementById("exercicio5")
+buttonExercicio5.addEventListener('click', () => {
+    exercicio5()
+})

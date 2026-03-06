@@ -1,9 +1,9 @@
-// Não usar ESPAÇO. ACENTO, Ç, @$!%$¨
-
-//number é uma fução que tenta converter um valor passa para numero
-const numero = Number(prompt("Digite um número:"))
+function exercicio1() {
+    const numero = Number(prompt("Digite um número:"))
 const outronumero = Number(prompt("Digite outro Número:"))
-
 alert(numero+outronumero)
-
-// colocar o + entre alguma coisa
+}
+const buttonExercicio1 = document.getElementById("exercicio1")
+buttonExercicio1.addEventListener('click', () => {
+    exercicio1()
+})
